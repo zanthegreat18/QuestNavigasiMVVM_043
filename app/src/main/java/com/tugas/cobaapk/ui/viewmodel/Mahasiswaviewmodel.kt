@@ -9,9 +9,9 @@ import kotlinx.coroutines.flow.asStateFlow
 import kotlinx.coroutines.flow.update
 
 class MahasiswaViewModel : ViewModel() {
-    //only access internal class
+
     private val _dataModel = MutableStateFlow(Mahasiswa())
-    //access for public
+
     val dataModel: StateFlow<Mahasiswa> = _dataModel.asStateFlow()
 
     fun saveDataMhs(
