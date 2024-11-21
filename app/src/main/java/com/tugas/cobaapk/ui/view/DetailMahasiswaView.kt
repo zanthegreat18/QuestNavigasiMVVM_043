@@ -50,7 +50,7 @@ fun DetailMahasiswaView (
 
 
 @Composable
-fun DetailMhs(
+fun DetailMhs (
     judul: String, isi: String
 ) {
     Row(
