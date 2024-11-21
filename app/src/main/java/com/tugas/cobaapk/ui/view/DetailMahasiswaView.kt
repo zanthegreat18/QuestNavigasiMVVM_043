@@ -15,7 +15,7 @@ import com.tugas.cobaapk.model.Mahasiswa
 
 
 @Composable
-fun DetailMahasiswaView(
+fun DetailMahasiswaView (
     dataMhs: Mahasiswa,
     modifier: Modifier = Modifier,
     onBackButton: () -> Unit // Tambahkan parameter ini
