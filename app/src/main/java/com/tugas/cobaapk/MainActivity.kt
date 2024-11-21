@@ -21,7 +21,7 @@ class MainActivity : ComponentActivity() {
         setContent {
             CobaapkTheme {
                 Scaffold(modifier = Modifier.fillMaxSize()) { innerPadding ->
-                    NavigatorControl(
+                    NavigatorControl (
                         modifier = Modifier.padding(innerPadding)
                     )
                 }
